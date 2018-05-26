@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/duyen"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/sentence1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Because I'm young,."
+        android:textAppearance="?android:textAppearanceLarge"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/sentence2"
+        android:text="...I can do everything!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sentence1"
+        android:layout_toRightOf="@id/sentence1"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/card_from"
+        android:text="From NgocVX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:fontFamily="cursive"
+        android:layout_margin="16dp"/>
+
+</RelativeLayout>
